@@ -1,0 +1,63 @@
+.ewk_cont_banner{
+     height: 1000vh;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;   
+     background-size: cover;
+     background-image: url("/img/fondo\ de\ pantalla.jpg");
+}
+
+.ewk_sobra{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(106, 7, 94, 0.179);
+    color: rgb(98, 10, 102);
+    margin: auto;
+}
+
+.ewk_sobra hr{
+    border-top: 1px solid rgb(140, 22, 163);
+}
+
+.ewk_sobra h1{
+    font-size: 8vw;
+    margin-bottom: 10px;
+}
+
+.ewk_sobra p{
+    font-size: 4vw;
+    margin-bottom: 10px;
+}
+
+.ewk_cont_banner_link{
+    margin: 15px;
+    position: relative;
+
+}
+
+.ewk_cont_banner_link a{
+    display: inline-block;
+    color: rgb(112, 13, 96);
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.ewk_cont_banner_link a:hover{
+    background-color: rgb(226, 128, 222);
+    color: black;
+}
+
+
+    
+
+
